@@ -7,6 +7,7 @@ public class Truck extends Car {
         System.out.println("Проверяем прицеп");
     }
 
+
     @Override
     public void service() {
         System.out.println();

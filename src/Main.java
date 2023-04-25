@@ -6,7 +6,6 @@ public class Main {
                 new Car("Volvo XC70", 4),
                 new Truck("Kamaz-45143-50", 4)
         };
-
         for (Vehicle element:vehicles) {
             element.service();
         }
