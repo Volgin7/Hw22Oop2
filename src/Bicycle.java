@@ -9,8 +9,9 @@ public class Bicycle extends Vehicle{
     public void service() {
         System.out.println();
         System.out.println("Обслуживаем " + getModelName());
-        for (int i = 0; i < this.getWheelsCount(); i++) {
-            updateTyre();
-        }
+        this.checkWheels();
+        // for (int i = 0; i < this.getWheelsCount(); i++) {
+        //    updateTyre();
+        // }
     }
 }

@@ -12,9 +12,7 @@ public class Car extends Vehicle {
     public void service() {
         System.out.println();
         System.out.println("Обслуживаем " + getModelName());
-        for (int i = 0; i < this.getWheelsCount(); i++) {
-            updateTyre();
-        }
+        this.checkWheels();
         this.checkEngine();
     }
 }

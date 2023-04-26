@@ -11,6 +11,11 @@ private int wheelsCount;
     public void updateTyre() {
     System.out.println("Меняем покрышку");
     }
+    public void checkWheels() {
+        for (int i = 0; i < this.getWheelsCount(); i++) {
+            updateTyre();
+        }
+    }
 
     abstract public void service();
 
